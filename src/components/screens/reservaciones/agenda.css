@@ -1,0 +1,188 @@
+.border2p005e92 {border: 2px solid #005e92;}
+
+.ctp {
+    float: left;
+    max-width: 78%;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+
+  .tablaHorario {
+    width: 100%;
+    text-align: center;
+  }
+
+  .tablaHorariocontent {
+    /* width: 100%; */
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .tabCellHorariotabchild{
+    width: 100%;
+    /* height: 40px; */
+  }
+
+  
+  
+  .tabCellHorario {
+    border: 2px solid #0f598e;
+  }
+
+  .tabCellHorariochild {
+    border-top: 2px solid #0f598e;
+    height: 40px;
+    padding-top: 9px;
+  }
+
+  .tabCellHorariochildres1{
+    height: 40px;
+    padding: 1px;
+  }
+
+  .tabCellHorariochildres2{
+    height: 80px;
+    padding: 1px;
+  }
+  .tabCellHorariochildres3{
+    height: 120px;
+    padding: 1px;
+  }
+
+  .tabCellHorariochildres4{
+    height: 160px;
+    padding: 1px;
+  }
+
+  .tabCellHorariochildres5{
+    height: 200px;
+    padding: 1px;
+  }
+
+  .tabCellHorariochildres6{
+    height: 240px;
+    padding: 1px;
+  }
+
+  .tabCellHorariochildres7{
+    height: 280px;
+    padding: 1px;
+  }
+
+  .tabCellHorariochildres8{
+    height: 320px;
+    padding: 1px;
+  }
+
+  .tabCellHorariochildres9{
+    height: 360px;
+    padding: 1px;
+  }
+
+  .tabCellHorariochildrescont{
+    border: 1px solid #0f598e;
+    background: rgb(0, 113, 158);
+    color: white;
+    border-radius: 4px;
+    height: 100%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .tabCellHorariochildrescontnull{
+    height: 100%;
+    border-bottom: 1px solid #bebebe;
+  }
+  
+  .colasighead {
+    float: left;
+    border-radius: 3px;
+    list-style-type: none;
+  }
+  
+  .colasig {
+    border: 2px solid #005e92;
+    float: left;
+    border-radius: 3px;
+    min-height: 30px;
+    list-style-type: none;
+  }
+  
+  #sortable1, #sortable2, #sortable3, #sortable4 {
+    list-style-type: none;
+  }
+  
+  .connectedSortable  {
+    list-style-type: none;
+  }
+  
+  /*  */
+  @media screen and (max-width: 1080px) {
+    .cntview1{display: none;}
+    .cntview3{display: none;}
+    .ctp {
+      float: left;
+      max-width: 98%;
+      margin-left: 1%;
+      margin-right: 1%;
+    }
+    .ttt h3 {
+      font-size: 1.25rem;
+    }
+    #TablaHorarios{font-size: 10px;}
+  }
+  @media screen and (min-width: 1080px) {
+    .cntview1{display: block;}
+    .cntview3{display: block;}
+    .ctp {
+      float: left;
+      max-width: 78%;
+      margin-left: 1%;
+      margin-right: 1%;
+    }
+    .ttt h3 {
+      font-size: 1.75rem;
+    }
+    #TablaHorarios{font-size: 12px;}
+  }
+
+  .tabItem{
+    width: 100%;
+    height: auto;
+    background: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 113, 158);
+  }
+
+  .tch{
+    padding: 0px;
+  }
+
+.col-agenda{
+  /* padding: 3px; */
+  /* height: 300px; */
+  width: 16.666667%;
+  border: 2px solid rgb(87, 87, 87);
+
+}
+
+.col-col-header-agenda{
+  height: 30px;
+  width: 100%;
+  margin-bottom: 3px;
+  /* border: 2px solid rgb(87, 87, 87); */
+  background:rgb(212, 212, 212);
+}
+
+.col-col-agenda{
+  height: 30px;
+  width: 100%;
+  margin-bottom: 3px;
+  border: 2px solid rgb(87, 87, 87);
+  background:rgb(255, 255, 255);
+}
+
+button {
+  outline: none !important;
+}
